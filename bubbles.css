@@ -1,0 +1,10 @@
+/* Your main skills container */
+.skills-container {
+  position: relative;   /* REQUIRED */
+  overflow: hidden;     /* Keeps bubbles inside */
+}
+
+/* Your bubble class */
+.skill-bubble {
+  position: absolute;   /* REQUIRED for movement */
+}

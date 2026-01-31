@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy Your Website - Quick Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .step-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .step-content {
+            color: #666;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        .button-secondary {
+            background: #28a745;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+        }
+        .button-secondary:hover {
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.6);
+        }
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: #856404;
+        }
+        .link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deploy Your Website</h1>
+        <p class="subtitle">Get your website online in 2 minutes!</p>
+
+        <div class="step">
+            <div>
+                <span class="step-number">1</span>
+                <span class="step-title">Click the button below</span>
+            </div>
+            <div class="step-content">
+                This will open Netlify Drop - the easiest way to deploy your website (no sign-up required!)
+            </div>
+        </div>
+
+        <div class="step">
+            <div>
+                <span class="step-number">2</span>
+                <span class="step-title">Drag your entire folder</span>
+            </div>
+            <div class="step-content">
+                Drag the <strong>"PERSONAL WEBSITE"</strong> folder onto the Netlify Drop page
+            </div>
+        </div>
+
+        <div class="step">
+            <div>
+                <span class="step-number">3</span>
+                <span class="step-title">Get your link!</span>
+            </div>
+            <div class="step-content">
+                Wait a few seconds and you'll get a free link like: <strong>https://your-site.netlify.app</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="https://app.netlify.com/drop" target="_blank" class="button">
+                🌐 Open Netlify Drop Now
+            </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 15px;">
+            <a href="https://vercel.com/new" target="_blank" class="button button-secondary">
+                ⚡ Or Use Vercel (Alternative)
+            </a>
+        </div>
+
+        <div class="note">
+            <strong>💡 Tip:</strong> Make sure to drag the entire <strong>"PERSONAL WEBSITE"</strong> folder (with all files including images) onto the deployment page. Your website will be live instantly!
+        </div>
+
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #999; font-size: 0.9rem;">
+            <p>Need help? Check the <a href="DEPLOYMENT_GUIDE.md" class="link">DEPLOYMENT_GUIDE.md</a> file in your project folder.</p>
+        </div>
+    </div>
+</body>
+</html>
